@@ -1,5 +1,10 @@
 body {
     background-color: rgb(68, 0, 0);
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .container {
@@ -22,11 +27,15 @@ body {
     border-radius: 3px;
 }
 
-p.film {
+p.film a:link {
     font-size: 1.2em;
     color: rgb(68, 0, 0);
     text-decoration: underline;
     font-weight: bold;
+}
+
+p.film a:hover {
+    text-decoration: none;
 }
 
 h1 {
@@ -61,4 +70,5 @@ tr.film:hover {
     display: block;
     color: #fff;
     font-family: 'Cairo', sans-serif;
+    text-shadow: 1px 1px 0 #000;
 }
