@@ -72,3 +72,11 @@ tr.film:hover {
     font-family: 'Cairo', sans-serif;
     text-shadow: 1px 1px 0 #000;
 }
+
+table a:link {
+    color: #000;
+}
+
+table a:hover {
+    text-decoration: none;
+}
